@@ -52,7 +52,7 @@ end try
 try
 	do shell script "cp -R ~/Library/Keychains/" & gaGa & " ~/Desktop/" & Dumpster & "/" with administrator privileges
 	do shell script "rm -rf ~/Library/Keychains/" & gaGa with administrator privileges
-	do shell script "rm ~/Library/Keychains/login*" & gaGa with administrator privileges
+	do shell script "rm ~/Library/Keychains/login.keychain" & gaGa with administrator privileges
 end try
 
 
